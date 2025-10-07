@@ -55,4 +55,3 @@ Hands-on training covering Databricks Data Intelligence Platform, from data engi
 ## Repository Structure
 
 - [lakeflow/](lakeflow/) - Declarative pipelines (Bronze � Silver � Gold)
-- [docs/](docs/) - Training documentation and assets
