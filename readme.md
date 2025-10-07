@@ -1,8 +1,6 @@
-# Semana Databricks 2.0
 
 Hands-on training covering Databricks Data Intelligence Platform, from data engineering fundamentals to advanced GenAI implementations.
 
-![Agenda](docs/agenda.png)
 
 ## Weekly Agenda
 
