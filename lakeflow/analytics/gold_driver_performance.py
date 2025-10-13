@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="gold_driver_performance",
+    name="semana.default.gold_driver_performance",
     comment="Daily driver performance metrics including delivery volume, revenue generated, and efficiency indicators",
     table_properties={
         "quality": "gold",

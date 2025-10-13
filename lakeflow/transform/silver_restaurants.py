@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_restaurants",
+    name="semana.default.silver_restaurants",
     comment="Cleaned restaurant dimension with standardized ratings and operating hours",
     table_properties={
         "quality": "silver",

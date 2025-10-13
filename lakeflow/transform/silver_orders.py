@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_orders",
+    name="semana.default.silver_orders",
     comment="Cleaned orders fact table with validated amounts and foreign keys",
     table_properties={
         "quality": "silver",

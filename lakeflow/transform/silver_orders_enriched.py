@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_orders_enriched",
+    name="semana.default.silver_orders_enriched",
     comment="Complete order context with denormalized user, driver, and restaurant dimensions. Optimized for analytics without repeated joins.",
     table_properties={
         "quality": "silver",

@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="gold_hourly_order_patterns",
+    name="semana.default.gold_hourly_order_patterns",
     comment="Hourly aggregated order patterns including demand forecasting metrics, peak hour analysis, and day-of-week seasonality",
     table_properties={
         "quality": "gold",

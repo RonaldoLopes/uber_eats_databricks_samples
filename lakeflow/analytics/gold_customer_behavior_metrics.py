@@ -12,7 +12,7 @@ from pyspark.sql.window import Window
 
 
 @dlt.table(
-    name="gold_customer_behavior_metrics",
+    name="semana.default.gold_customer_behavior_metrics",
     comment="Customer lifetime value metrics including order frequency, spending patterns, preferences, and loyalty segmentation",
     table_properties={
         "quality": "gold",

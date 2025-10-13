@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="gold_city_market_analytics",
+    name="semana.default.gold_city_market_analytics",
     comment="Daily city-level market metrics including supply/demand balance, revenue performance, market penetration, and growth indicators",
     table_properties={
         "quality": "gold",

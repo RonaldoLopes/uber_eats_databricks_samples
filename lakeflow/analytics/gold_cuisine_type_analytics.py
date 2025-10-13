@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="gold_cuisine_type_analytics",
+    name="semana.default.gold_cuisine_type_analytics",
     comment="Daily cuisine type performance metrics including popularity, revenue contribution, customer preferences, and market trends",
     table_properties={
         "quality": "gold",

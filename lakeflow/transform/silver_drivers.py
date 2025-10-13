@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_drivers",
+    name="semana.default.silver_drivers",
     comment="Cleaned driver dimension with standardized vehicle info and validated data",
     table_properties={
         "quality": "silver",

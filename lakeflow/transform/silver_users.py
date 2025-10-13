@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_users",
+    name="semana.default.silver_users",
     comment="Cleaned user dimension with standardized phone numbers and validated data",
     table_properties={
         "quality": "silver",

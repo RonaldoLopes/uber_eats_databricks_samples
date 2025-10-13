@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="silver_status",
+    name="semana.default.silver_status",
     comment="Flattened and cleaned order status events with parsed timestamps",
     table_properties={
         "quality": "silver",

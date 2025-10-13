@@ -11,7 +11,7 @@ from pyspark.sql import functions as F
 
 
 @dlt.table(
-    name="gold_restaurant_daily_metrics",
+    name="semana.default.gold_restaurant_daily_metrics",
     comment="Daily restaurant performance metrics including order volume, revenue, and customer analytics",
     table_properties={
         "quality": "gold",
