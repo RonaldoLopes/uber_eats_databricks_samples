@@ -12,7 +12,7 @@ AS SELECT
   _metadata.file_path AS source_file,
   _metadata.file_modification_time AS ingestion_time
 FROM STREAM read_files(
-  '/Volumes/semana/default/vol-owshq-shadow-traffic/mssql_users_*',
+  '/Volumes/semana/default/shadown_traffic_data/mssql_users_*',
   format => 'json'
 );
 
@@ -30,7 +30,7 @@ AS SELECT
   _metadata.file_path AS source_file,
   _metadata.file_modification_time AS ingestion_time
 FROM STREAM read_files(
-  '/Volumes/semana/default/vol-owshq-shadow-traffic/postgres_drivers_*',
+  '/Volumes/semana/default/shadown_traffic_data/postgres_drivers_*',
   format => 'json'
 );
 
@@ -48,7 +48,7 @@ AS SELECT
   _metadata.file_path AS source_file,
   _metadata.file_modification_time AS ingestion_time
 FROM STREAM read_files(
-  '/Volumes/semana/default/vol-owshq-shadow-traffic/mysql_restaurants_*',
+  '/Volumes/semana/default/shadown_traffic_data/mysql_restaurants_*',
   format => 'json'
 );
 
@@ -66,7 +66,7 @@ AS SELECT
   _metadata.file_path AS source_file,
   _metadata.file_modification_time AS ingestion_time
 FROM STREAM read_files(
-  '/Volumes/semana/default/vol-owshq-shadow-traffic/kafka_orders_*',
+  '/Volumes/semana/default/shadown_traffic_data/kafka_orders_*',
   format => 'json'
 );
 
@@ -84,7 +84,7 @@ AS SELECT
   _metadata.file_path AS source_file,
   _metadata.file_modification_time AS ingestion_time
 FROM STREAM read_files(
-  '/Volumes/semana/default/vol-owshq-shadow-traffic/kafka_status_*',
+  '/Volumes/semana/default/shadown_traffic_data/kafka_status_*',
   format => 'json'
 );
 
